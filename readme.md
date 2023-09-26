@@ -13,5 +13,8 @@ There's no step 3.
 ## How does it work
 It leverages the [Karabiner Elements oficial CLI](https://karabiner-elements.pqrs.org/docs/manual/misc/command-line-interface/) to create a list of existing profiles, bakes them into a JSON format and uses the selection into another CLI command to change it.
 
+## To do
+- [ ] Fix the script filter to show currently active profile in resulting list
+
 ## Credits
 - Icon from Karabiner Elements app
