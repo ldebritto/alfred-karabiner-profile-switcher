@@ -7,9 +7,9 @@ set currentProfile to do shell script "'/Library/Application Support/org.pqrs/Ka
 
 
 repeat with profile in profileList
-	if profile is currentProfile then -- Can't figure out why it's not matching
-		set thisReccord to {title:(">>>  " & profile), arg:(profile)}
-		set the end of filterList to thisReccord -- That should point to the currently active profile, however it's not working
+	if profile contains currentProfile then
+		set thisReccord to {title:(profile & " (active)"), arg:(profile)}
+		set the end of filterList to thisReccord
 	else
 		set thisReccord to {title:(profile), arg:(profile)}
 		set the end of filterList to thisReccord

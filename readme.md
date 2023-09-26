@@ -6,7 +6,7 @@ Allows to quick change between profiles in [Karabiner Elements](https://karabine
 - Download the lattest release and double click the `.alfredworkflow` binary file.
 
 ## Usage
-1. Type `kp` and select the desired profile.
+1. Type `kp` and select the desired profile (active profile is showed as `(active)`)
 2. Hit `enter`.
 There's no step 3.
 
